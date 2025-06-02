@@ -61,3 +61,64 @@ function SomaNumeros() {
     alert(`A soma entre ${valor1} e ${valor2} é igual a ${resultado}`);
 }
 ```
+# Resolução do desafio 2 do curso *Lógica de programação: explore funções e listas*
+
+## Funções e parâmetros
+
+#### 1. Criar uma função que exibe "Olá, mundo!" no console.
+```js
+function exibirOla() {
+    console.log('Olá, mundo!');
+}
+
+exibirOla();
+```
+
+#### 2.Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+```js
+function exibirOlaNome (nome) {
+    console.log(`Olá, ${nome}`);
+}
+
+exibirOlaNome('Aurora');
+```
+
+#### 3. Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+```js
+function calcularDobro (numero) {
+    return numero * 2;
+}
+
+let resultadoDobro = calcularDobro(18);
+console.log(resultadoDobro);
+```
+
+#### 4. Criar uma função que recebe três números como parâmetros e retorna a média deles.
+```js
+function mediaTresNumeros (a, b, c) {
+    return (a + b + c) / 3;
+}
+
+let resultadoMedia = mediaTresNumeros(2, 4, 6);
+console.log(resultadoMedia);
+```
+
+#### 5. Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+```js
+function encontrarMaior(a, b) {
+    return a > b ? a : b;
+}
+
+let maiorNumero = encontrarMaior(16, 14);
+console.log(maiorNumero);
+```
+
+#### 6. Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo
+```js
+function quadrado(numero) {
+    return numero * numero;
+}
+
+let resultadoQuadrado = quadrado(8);
+console.log(resultadoQuadrado);
+```
